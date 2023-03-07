@@ -1,0 +1,53 @@
+/* blue background equals article and yellow backgrounds equal images */
+
+body{
+    background-color: rgba(206, 203, 195, 0.801);
+}
+/* artic= article */
+.artic1{
+
+max-width: 400px;
+max-height: auto;
+padding: 15px 4px 4px 15px;
+font-size: 25px;
+}    
+  
+/* sect1 = section 1 */
+.sect1{
+max-width: 480px;
+max-height: auto;
+
+ 
+}
+
+.div1{
+display: flex;
+gap: 80px;
+padding-left: 400px;
+}
+
+
+/* artic2= article 2 */
+.artic2{
+    
+    padding:15px 4px 4px 15px;
+    max-width: 400px;
+    max-height: auto;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: rgb(224, 135, 100);
+    
+    }    
+      
+    /* sect2 = section 2 */
+    .sect2{
+     
+    }
+    .div2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    *{
+        font-family: Georgia;
+    }
